@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake a Wish</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- header section -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><img src="assets/img/logo-blanco-recortada.png" alt="Logo cake a wish"></a>
+        <nav class="navbar">
+            <a href="#inicio">inicio</a>
+            <a href="#sabores">sabores</a>
+            <a href="#adornos">adornos</a>
+            <a href="#pedidos">pedidos</a>
+            <a href="#contacto">contacto</a>
+        </nav>
+        
+        <div class="icons">
+            <i class="fas fa-user" id="login-btn" title="Iniciar Sesión"></i>
+        </div>
+    </header>
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="pastelero.html">
+            <h3>pastelero inicie sesión</h3>
+            <input type="email" class="box" placeholder="Ingrese su correo">
+            <input type="password" class="box" placeholder="Ingrese su contraseña">
+            <input type="submit" value="iniciar sesión" class="btn">
+            <!-- No valida los datos, solo permite entrar a la vista del pastelero -->
+            <input type="checkbox"  id="remember">
+            <label for="remember">recuerdame</label>
+            <p>¿olvidaste tu contraseña? <a href="#">click aquí</a></p>
+        </form>
+    </div>
+
+    <!-- Seccion de inicio -->
+    <section class="home" id="inicio">
+        <div class="content">
+            <h3>pasteleria cake a wish</h3>
+            <h4>tus deseos son ordenes</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, necessitatibus.</p>
+            <a href="#pedidos" class="btn">haz tu pedido</a>
+        </div>
+
+        <div class="img-container">
+            <img src="assets/img/pastel-fondo-alt.png" alt="pastel-fondo">
+        </div>
+
+    </section>
+    <!-- Termina seccion de inicio -->
+
+    <!-- seccion de los sabores-->
+
+    <section id="sabores" class="sabores">
+        <h1 class="heading">
+            <span>s</span>
+            <span>a</span>
+            <span>b</span>
+            <span>o</span>
+            <span>r</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/img/chocolate.jpeg" alt="chocolate">
+                <div class="content">
+                    <h3><i class="fas fa-birthday-cake"></i> chocolate </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptates, facere dolores unde doloremque perspiciatis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                </div>
+            </div><div class="box">
+                <img src="assets/img/vanilla.jpg" alt="vainilla">
+                <div class="content">
+                    <h3><i class="fas fa-birthday-cake"></i> vainilla </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptates, facere dolores unde doloremque perspiciatis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                </div>
+            </div><div class="box">
+                <img src="assets/img/fresa.jpg" alt="fresa">
+                <div class="content">
+                    <h3><i class="fas fa-birthday-cake"></i> fresa </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptates, facere dolores unde doloremque perspiciatis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- termina la seccion de los sabores -->
+
+    <!-- seccion de los adornos -->
+    <section id="adornos" class="adornos">
+        <h1 class="heading">
+            <span>a</span>
+            <span>d</span>
+            <span>o</span>
+            <span>r</span>
+            <span>n</span>
+            <span>o</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/img/chispas.jpg" alt="chispas">
+                <div class="content">
+                    <h3><i class="fas fa-birthday-cake"></i> chispas de dulce </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptates, facere dolores unde doloremque perspiciatis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $35.00 <span>$60.00</span> </div>
+                </div>
+            </div><div class="box">
+                <img src="assets/img/crema-batida.jpg" alt="crema-batida">
+                <div class="content">
+                    <h3><i class="fas fa-birthday-cake"></i> crema batida </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptates, facere dolores unde doloremque perspiciatis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $35.00 <span>$60.00</span> </div>
+                </div>
+            </div><div class="box">
+                <img src="assets/img/oreo.jpg" alt="oreo">
+                <div class="content">
+                    <h3><i class="fas fa-birthday-cake"></i> galleta oreo </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptates, facere dolores unde doloremque perspiciatis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $35.00 <span>$60.00</span> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- termina la seccion de los adornos -->
+
+    <!-- seccion de pedidos -->
+
+    <section class="pedidos" id="pedidos">
+        <h1 class="heading">
+            <span>p</span>
+            <span>e</span>
+            <span>d</span>
+            <span>i</span>
+            <span>d</span>
+            <span>o</span>
+            <span>s</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="assets/img/logo-tienda.png" alt="logo-en-tienda">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="nombre">
+                    <input type="tel" placeholder="telefono">
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="correo electronico">
+                </div>
+                <textarea placeholder="descripción general del pastel" name="" id="" cols="30" rows="10"></textarea>
+
+                <p>Elija el sabor de su pastel (se puede combinar sabores): </p><br>
+                <input type="checkbox" name="sabor1" id="sabor1" value="chocolate">
+                <label for="sabor1">Pastel de chocolate</label><br>
+                <input type="checkbox" name="sabor2" id="sabor2" value="vainilla">
+                <label for="sabor2">Pastel de vainilla</label><br>
+                <input type="checkbox" name="sabor3" id="sabor3" value="fresa">
+                <label for="sabor3">Pastel de fresa</label><br><br>
+
+                <p>Elija el adorno de su pastel (se puede combinar adornos): </p><br>
+                <input type="checkbox" name="adorno1" id="adorno1" value="chispas">
+                <label for="adorno1">chispas</label><br>
+                <input type="checkbox" name="adorno2" id="adorno2" value="crema-batida">
+                <label for="adorno2">crema batida</label><br>
+                <input type="checkbox" name="adorno3" id="adorno3" value="oreo">
+                <label for="adorno3">galleta oreo</label><br>
+                <input type="checkbox" name="adorno4" id="adorno4" value="ninguno">
+                <label for="adorno4">sin adorno</label><br>
+
+                <input type="submit" class="btn" value="enviar pedido">
+            </form>
+        </div>
+    </section>
+
+    <!-- termina seccion de pedidos -->
+
+
+    <!-- seccion footer y contacto -->
+
+    <section class="footer" id="contacto">
+        <div class="box-container">
+            <div class="box">
+                <h3> cake a wish <i class="fas fa-birthday-cake"></i> </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem laudantium aliquid, quisquam quas iste?</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3> informacion de contacto </h3>
+                <p>Horarios de atención:</p>
+                <p>Lunes a viernes: 8:30 a.m - 6:00 p.m</p>
+                <p>Sábado: 10:00 a.m - 4:00 p.m</p>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fab fa-whatsapp"></i> +555-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> ventas@cakeawish.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marked"></i> Mérida, Yucatán, México </a>
+            </div>
+            <div class="box">
+                <h3> links rapidos </h3>
+                <a href="#inicio" class="links"> <i class="fas fa-arrow-right"></i> inicio </a>
+                <a href="#sabores" class="links"> <i class="fas fa-arrow-right"></i> sabores </a>
+                <a href="#adornos" class="links"> <i class="fas fa-arrow-right"></i> adornos </a>
+                <a href="#pedidos" class="links"> <i class="fas fa-arrow-right"></i> pedidos </a>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- termina footer y contacto -->
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
